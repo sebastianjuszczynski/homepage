@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domowa numer 2 - Szkielet HTML z drobną interakcją ;)</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/image.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body class="container">
+    <header>
+        <h1>Witaj na stronie poświęconej Sebastianowi Juszczyńskiemu!</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__item"><a class="navigation__link" href="#about">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#football">Piłka nożna</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#guitar">Gitara</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#myFavouriteFootballers">Moi ulubienie
+                    piłkarze</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img class="image" src="img/sebastian.jpg" alt="Sebastian Juszczyński">
+        <section>
+            <article class="article">
+                <p id="about">Nazywam się Sebastian Juszczyński i pochodzę z małej miejscowości położonej w województwie
+                    kujawsko -
+                    pomorskim,
+                    w pobliżu Torunia - Ostrowite.😁💪</p>
+                <p>W wieku 19 lat przeprowadziłem się do Olsztyna🚉, żeby studiować Ochronę Środowiska.📚</p>
+            </article>
+            <article class="article">
+                <h2>Zainsteresowania</h2>
+                <h3 id="football">Piłka nożna⚽️⚽️⚽️</h3>
+                <p>Gram od najmłodszych lat. Amatorsko grałem w niższych ligach w klubach takich jak <span
+                        class="article__span">Saturn
+                        Ostrowite,
+                        Promień
+                        Kowalewo czy Drwęca Golub - Dobrzyń🏆 </span>Już jako student reprezentowałem swój wydział,
+                    niestety
+                    bez
+                    większych sukcesów😤</p>
+                <h3 id="guitar">Gitara🎸🎸🎸</h3>
+                <p>W wieku 15 lat kupiłem pierwszą <i>Gitarę klasyczną</i> i po mękach nauczyłem się podstaw. Niestety
+                    nie
+                    mam
+                    dobrego słuchu muzycznego, ale nie przeszkadza mi to w zagraniu dość skomplikowanych kawałków🤘🖖🤟
+                </p>
+            </article>
+            <article class="article">
+                <table class="table">
+                    <caption class="table__caption" id="myFavouriteFootballers">Moi ulubieni piłkarze</caption>
+                    <tr>
+                        <th class="table__header" scope="col">Piłkarz</th>
+                        <th class="table__header" scope="col">Klub</th>
+                        <th class="table__header" scope="col">Narodowość</th>
+                    </tr>
+                    <tr>
+                        <th class="table__header" scope="row">Robert Lewandowski</th>
+                        <td class="table__data">Bayern Monachium</td>
+                        <td class="table__data">Polska</td>
+                    </tr>
+                    <tr>
+                        <th class="table__header" scope="row">Cristiano Ronaldo</th>
+                        <td class="table__data">Juventus Turyn</td>
+                        <td class="table__data">Portugalia</td>
+                    </tr>
+                    <tr>
+                        <th class="table__header">Leo Messi</th>
+                        <td class="table__data" rowspan="2">FC Barcelona</td>
+                        <td class="table__data">Argentyna</td>
+                    </tr>
+                    <tr>
+                        <th class="table__header" scope="row">Andreas Iniesta</th>
+                        <td class="table__data">Hiszpania</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+    </main>
+    <button class="buttons button--js-themeChange">Zmień na ciemny motyw</button>
+    <button class="buttons button--js-imageSizeChange">Zmień rozmiar zdjęcia</button>
+    <footer class="footer">
+        <p class="footer__paragraph">© 2020 Sebastian Juszczyński</p>
+    </footer>
+</body>
+
+</html>

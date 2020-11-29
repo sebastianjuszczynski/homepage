@@ -1,0 +1,12 @@
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    /* height: 400px; */
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+}
+
+.image--js-sizeChange {
+    width: 100px;
+}

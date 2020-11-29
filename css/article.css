@@ -1,0 +1,8 @@
+.article {
+    padding: 5px;
+}
+
+.article__span {
+    color: rgb(17, 176, 197);
+    font-weight: bold;
+}

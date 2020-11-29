@@ -1,0 +1,13 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container--js-darkTheme {
+    color: white;
+    background-color: black;
+}
